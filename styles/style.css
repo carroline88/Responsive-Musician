@@ -1,8 +1,7 @@
 :root {
-  --bg-color: #0b0c10;
+  --bg-color: #121212;
   --text-main: #ffffff;
   --text-muted: #a6abb7;
-  --grid-line: rgba(92, 124, 250, 0.12);
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Source Sans 3', sans-serif;
 }
@@ -24,16 +23,6 @@ body {
   justify-content: center;
 }
 
-.background-grid {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background-size: 80px 80px;
-  background-image: 
-    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
-  z-index: 0;
-}
 
 .page-container {
   width: 100%;
