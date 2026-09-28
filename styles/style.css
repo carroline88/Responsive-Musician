@@ -266,3 +266,44 @@ body {
     max-height: 520px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page-container {
+    padding: 24px 20px 40px 20px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .hero-section {
+    gap: 24px;
+    padding-top: 20px;
+  }
+
+  .hero-text {
+    max-width: 280px;
+  }
+
+  .hero-title {
+    font-size: 32px; 
+    margin-bottom: 12px;
+  }
+
+  .hero-desc {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .hero-image-wrapper {
+    max-width: 256px;
+  }
+
+  .hero-image {
+    max-height: 300px;
+  }
+}
