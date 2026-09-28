@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Musician - Responsive & Adaptive Design</title>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musician - Responsive & Adaptive Design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
 
-  <div class="page-container">
-    <header class="site-header">
-      <a href="#" class="logo">Head.</a>
+    <div class="page-container">
+        <header class="site-header">
+            <a href="#" class="logo">Head.</a>
 
-      
-      <nav class="desktop-nav">
-        <ul>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
 
-      <button class="mobile-menu-btn" aria-label="Öppna meny">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </header>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
 
-    <main class="hero-section">
-      <div class="hero-text">
-        <h1 class="hero-title">Musician</h1>
-        <p class="hero-desc">
-          Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper.
-        </p>
+            <button class="mobile-menu-btn" aria-label="Öppna meny">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
 
-        <div class="slider-control" aria-hidden="true">
-          <span class="active-dot"></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
+        <main class="hero-section">
+            <div class="hero-text">
+                <h1 class="hero-title">Musician</h1>
+                <p class="hero-desc">
+                    Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae
+                    ullamcorper.
+                </p>
 
-      <div class="hero-image-wrapper">
-        <picture>
-          <source media="(max-width: 600px)" srcset="images/musician-mobile.png">
-          <source media="(max-width: 1024px)" srcset="images/musician-tablet.png">
-          <img src="images/musician-desktop.png" alt="Porträtt på artisten" class="hero-image">
-        </picture>
-      </div>
-    </main>
-  </div>
+                <div class="slider-control" aria-hidden="true">
+                    <span class="active-dot"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/musician-mobile.png">
+                    <source media="(max-width: 1024px)" srcset="images/musician-tablet.png">
+                    <img src="images/musician-desktop.png" alt="Porträtt på artisten" class="hero-image">
+                </picture>
+            </div>
+        </main>
+    </div>
 
 </body>
+
 </html>
